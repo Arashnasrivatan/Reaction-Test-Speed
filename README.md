@@ -25,9 +25,6 @@ Start the application in your development environment:
 
 I created this project for a small competition on aiolearn, and I won! 🎉🏆
 
-## demo
-
-![demo]("https://arashnasri.com/assets/images/66caea5444447.jpg")
 
 ## Developed by 👨‍💻
 
