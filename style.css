@@ -1,0 +1,109 @@
+body {
+    background-color: #363636;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    color: #585858;
+    font-family: iransans;
+}
+
+@font-face {
+    font-family: iransans;
+    src: url(IRANSansWeb.ttf);
+}
+
+
+header {
+    background-color: #4c8baf;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    width: 100%;
+    max-width: 900px;
+}
+
+#test-area {
+    width: 100%;
+    height: 400px;
+    background-color: #9fdaff;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#test-area.active {
+    background-color: #4CAF50;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+#test-instructions {
+    font-size: 1.2em;
+    text-align: center;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer {
+    background-color: #4c8baf;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+#logo{
+    margin-bottom: 10px;
+    height: 130px;
+}
+
+a{
+     text-decoration: none;
+    color: #fdff7c;   
+}
+
+.footertxt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+            #test-area {
+                width: 100vw;
+                height: 100vh;
+            }
+            body{
+             overflow:hidden;   
+            }
+            }
